@@ -108,11 +108,11 @@ def getNodeState(f5_ip):
     return tuple(node_list_outer)
 
 
-host = 'qhinfoprd.db.foresealife.com'
-port = 1521
-username = 'midwaredata'
-password = 'midwaredata'
-sid = 'qhinfo'
+host = yourhost
+port = yourport
+username = username
+password = password
+sid = yoursid
 
 
 """

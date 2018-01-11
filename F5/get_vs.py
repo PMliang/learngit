@@ -105,11 +105,11 @@ def getVsState(f5_ip):
         vs_list_outer.append(vs_tuple_inner)
     return vs_list_outer
 
-host = 'qhinfoprd.db.foresealife.com'
-port = 1521
-username = 'midwaredata'
-password = 'midwaredata'
-sid = 'qhinfo'
+host = yourhost
+port = yourport
+username = username
+password = password
+sid = yoursid
 """
 表结构说明：
 F5IP：所在F5设备的IP
